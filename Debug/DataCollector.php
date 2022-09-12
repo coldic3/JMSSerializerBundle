@@ -25,7 +25,7 @@ final class DataCollector extends BaseDataCollector implements LateDataCollector
         array $loadedDirs,
         TraceableEventDispatcher $eventDispatcher,
         TraceableHandlerRegistry $handler,
-        TraceableDriver $metadataDriver,
+        TraceableMetadataFactory $metadataDriver,
         TraceableFileLocator $locator,
         RunsListener $runsListener
     ) {
